@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mr Dubstep Project Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .grid {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            transition: 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #4da3ff;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        .card a {
+            color: #4da3ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mr Dubstep Project Hub</h1>
+    <p>Welcome to the official hub for all my projects. Everything I build — engines, tools, games, and experiments — lives here.</p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>OpenBlocks Studio</h2>
+            <p>A Roblox‑Studio‑style game engine written in C++ with Lua 5.3 scripting.</p>
+            <a href="#">Visit Project</a>
+        </div>
+
+        <div class="card">
+            <h2>StreamVid</h2>
+            <p>A lightweight video streaming platform originally hosted on InfinityFree.</p>
+            <a href="#">Visit Project</a>
+        </div>
+
+        <div class="card">
+            <h2>Mr Dubstep Games</h2>
+            <p>My collection of games and prototypes.</p>
+            <a href="#">Visit Project</a>
+        </div>
+
+        <div class="card">
+            <h2>TeamV Techs & Robotics</h2>
+            <p>Tech experiments, robotics, and hardware projects.</p>
+            <a href="#">Visit Project</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
